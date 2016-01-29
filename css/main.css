@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+
+}
+
+/*This is where the background gif goes*/
+.intro-header {
+    padding-top: 160px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 80px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/cat_phone.gif) no-repeat center center;
+    background-size: cover;
+    text-shadow: 10px 10px #f8f8f8;
+    position: fixed
+    top:0;
+}
+
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 10px;
+    text-shadow: 2px 2px #000000;
+}
+
+/*GlobeMed at Rutgers title*/
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 3px #000000;
+    font-size: 5em;
+}
+
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        font-size: 2em;
+        background-color: #f8f8f8;
+        color: white;
+        padding: 16px 16px;
+        -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        transition: background .1s ease-in-out,padding .1s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 4px;
+        font-size: 2em;
+
+    }
+}
+
+
+.mission-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.events-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.members-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+
+/*Get Involved/Social Media/Links*/
+.link-names {
+    position: relative;
+    
+    font-size: 4em;
+}
+
+
+/*centers the navbar*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: url(../img/logo.png) no-repeat;
+  background-size:cover;
+  padding: 0px; 
+}
+.donate_link {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 0px;
+}
+
+
