@@ -27,10 +27,22 @@ h6 {
 
 }
 
+
+.button {
+    background-color: #fefefe;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 /*This is where the background gif goes*/
 .intro-header {
-    padding-top: 160px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 80px;
+    padding-top: 240px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 180px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/cat_phone.gif) no-repeat center center;
@@ -56,6 +68,9 @@ h6 {
     font-size: 5em;
 }
 
+.section-header{
+    padding-bottom: 1%;
+}
 
 .intro-divider {
     width: 400px;
@@ -86,40 +101,45 @@ h6 {
 }
 
 
-.mission-section {
-    height: 100%;
-    padding-top: 50px;
-    text-align: center;
-    background: #fff;
-}
+
 
 .events-section {
     height: 100%;
     padding-top: 50px;
+    padding-bottom: 900px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
+.mission-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
     background: #eee;
 }
-
-.members-section {
+.contact-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
     background: #fff;
 }
 
+.members-section {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 2600px;
+    text-align: center;
+    background: #eee;
+}
+
 
 /*Get Involved/Social Media/Links*/
 .link-names {
-    position: relative;
-    
-    font-size: 4em;
+    position: center;
+    padding-right: 120px;
+    float: left;
+    padding-left: 80px;
+    font-size: 3.2em;
 }
 
 
@@ -147,19 +167,37 @@ h6 {
 
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background: url(../img/logo.png) no-repeat;
+  background-color: #000000;
   background-size:cover;
   padding: 0px; 
 }
 .donate_link {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding: 0px;
+    position: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 80px
+}
+
+.service-wrapper{
+    padding-bottom: 32px;
+}
+
+.event-date{
+    text-align: left;
+    padding-left: 96px;
+    font-size: 2em;
+    padding-bottom: 0px;
+}
+
+.event-description{
+
+    padding-left: 180px;
+    padding-top: 0px;
+    text-align: left;
+    padding-bottom: 64px;
 }
 
 
