@@ -42,7 +42,7 @@ h6 {
 /*This is where the background gif goes*/
 .intro-header {
     padding-top: 240px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 180px;
+    padding-bottom: 240px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/cat_phone.gif) no-repeat center center;
@@ -122,12 +122,12 @@ h6 {
     padding-top: 50px;
     text-align: center;
     background: #fff;
+    padding-left: 20px;
 }
 
 .members-section {
-    height: 100%;
     padding-top: 50px;
-    padding-bottom: 2600px;
+    padding-bottom: 5%;
     text-align: center;
     background: #eee;
 }
@@ -138,7 +138,7 @@ h6 {
     position: center;
     padding-right: 120px;
     float: left;
-    padding-left: 80px;
+    padding-left: 10%;
     font-size: 3.2em;
 }
 
