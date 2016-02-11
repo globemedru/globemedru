@@ -45,7 +45,7 @@ h6 {
     padding-bottom: 240px;
     text-align: center;
     color: #f8f8f8;
-    /*background: url(../img/cat_phone.gif) no-repeat center center;*/
+    background: url(../img/random-background.jpg) no-repeat center center;
     background-size: cover;
     text-shadow: 10px 10px #f8f8f8;
     position: fixed
