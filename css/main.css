@@ -42,7 +42,7 @@ h6 {
 /*This is where the background gif goes*/
 .intro-header {
     padding-top: 240px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 240px;
+    padding-bottom: 200px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/house-grow2015.jpg) no-repeat center center;
