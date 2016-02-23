@@ -45,7 +45,7 @@ h6 {
     padding-bottom: 240px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/random-background.jpg) no-repeat center center;
+    background: url(../img/house-grow2015.jpg) no-repeat center center;
     background-size: cover;
     text-shadow: 10px 10px #f8f8f8;
     position: fixed
@@ -165,7 +165,7 @@ h6 {
   bottom: 0px;
   width: 100%;
   /* Set the fixed height of the footer here */
-  background: url(../img/random-background.jpg) no-repeat center center;
+  background: url(../img/children-grow2015.jpg) no-repeat center center;
   background-size:cover;
   padding: 0px; 
 }
