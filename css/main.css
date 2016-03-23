@@ -227,13 +227,14 @@ h6 {
 /*BOTTOM DONATE BAR, should stay static to bottom of page*/
 .footer {
     position: fixed;
+    display: block;
+    background: url(../img/bottom-donate-bar.png) no-repeat center center;
+    height: 120px;
     bottom: 0px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 1240px;
+   
     
-  /* Set the fixed height of the footer here */
-  background: url(../img/bottom-donate-bar.png) no-repeat center center;
+
 }
 .donate_link {
     position: none;
