@@ -15,6 +15,8 @@ html {
     height: 100%;
 }
 
+/*if you wanna change the font, you'll have to add it to the fonts folder and change the CODE_Light below
+*/
 body,
 h1,
 h2,
@@ -22,8 +24,24 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: CODE_Light;
+    font-weight: 550;
+
+}
+
+@font-face {
+font-family: CODE_Light;
+src: url("fonts/CODE_Light.otf") format("opentype");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'CODE_Light' Fallback, sans-serif;
 
 }
 
@@ -39,16 +57,15 @@ h6 {
     font-size: 16px;
 }
 
-/*This is where the background gif goes*/
 .intro-header {
     padding-top: 240px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 200px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/house-grow2015.jpg) no-repeat center center;
+    background: url(../img/children-study.jpg) no-repeat center center;
     background-size: cover;
     text-shadow: 10px 10px #f8f8f8;
-    position: fixed
+    /*opacity: 0.2;*/
     top:0;
 }
 
@@ -76,12 +93,13 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+/*TOP NAV BAR*/
 @media(min-width:767px) {
     .navbar {
         font-size: 2em;
-        background-color: #f8f8f8;
+        background-color: navy;
         color: white;
-        padding: 16px 16px;
+        padding: 10px 10px;
         -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
         -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
         transition: background .1s ease-in-out,padding .1s ease-in-out;
@@ -95,6 +113,13 @@ h6 {
 }
 
 
+.home-section{
+    height: 100;
+    padding-top:50px;
+    padding-bottom:900;
+    text-align: center;
+    background: #fff;
+}
 
 
 .events-section {
@@ -160,20 +185,24 @@ h6 {
     }
 }
 
+
+/*BOTTOM DONATE BAR*/
 .footer {
   position: fixed;
+    left:0px;
   bottom: 0px;
-  width: 100%;
+    height 200px;
+    width:100%;
+  margin-right: auto;
+    margin-left: auto;
+    
   /* Set the fixed height of the footer here */
-  background: url(../img/children-grow2015.jpg) no-repeat center center;
-  background-size:cover;
-  padding: 0px; 
+  background: url(../img/bottom-donate-bar.png) no-repeat center center;
 }
 .donate_link {
     position: none;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 80px
 }
 
 .service-wrapper{
