@@ -62,8 +62,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/children-study.jpg) no-repeat center center;
-    background-color: #fefefe;
+    background-color: gray;
+    /*background: url(../img/children-study.jpg) no-repeat center center;*/
+    
     background-size: auto;
     text-shadow: 10px 10px #f8f8f8;
     top:0;
@@ -106,7 +107,7 @@ h6 {
     }
     
     .top-nav-collapse {
-        padding: 2px;
+        padding: 3px;
         font-size: 2em;
 
     }
@@ -231,7 +232,7 @@ h6 {
     background: url(../img/bottom-donate-bar.png) no-repeat center center;
     height: 120px;
     bottom: 0px;
-    width: 1240px;
+    width: 1204px;
    
     
 
