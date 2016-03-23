@@ -63,11 +63,12 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/children-study.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: auto;
     text-shadow: 10px 10px #f8f8f8;
     /*opacity: 0.2;*/
     top:0;
 }
+
 
 
 .intro-message {
@@ -106,7 +107,7 @@ h6 {
     }
 
     .top-nav-collapse {
-        padding: 4px;
+        padding: 2px;
         font-size: 2em;
 
     }
@@ -116,7 +117,7 @@ h6 {
 .home-section{
     height: 100;
     padding-top:50px;
-    padding-bottom:900;
+    padding-bottom: 50px;
     text-align: center;
     background: #fff;
 }
@@ -125,21 +126,37 @@ h6 {
 .events-section {
     height: 100%;
     padding-top: 50px;
-    padding-bottom: 900px;
+    padding-bottom: 50px;
     text-align: center;
     background: #fff;
+}
+
+.event-date{
+    text-align: left;
+    padding-left: 96px;
+    font-size: 2em;
+    padding-bottom: 0px;
+}
+
+.event-description{
+
+    padding-left: 180px;
+    padding-top: 0px;
+    text-align: left;
+    padding-bottom: 64px;
 }
 
 .mission-section {
     height: 100%;
     padding-top: 50px;
-    padding-bottom: 900px;
+    padding-bottom: 50px;
     text-align: center;
     background: #eee;
 }
 .contact-section {
     height: 100%;
     padding-top: 50px;
+    padding-bottom:50px;
     text-align: center;
     background: #fff;
     padding-left: 20px;
@@ -147,7 +164,7 @@ h6 {
 
 .members-section {
     padding-top: 50px;
-    padding-bottom: 5%;
+    padding-bottom: 50px;
     text-align: center;
     background: #eee;
 }
@@ -186,14 +203,12 @@ h6 {
 }
 
 
-/*BOTTOM DONATE BAR*/
+/*BOTTOM DONATE BAR, should stay static to bottom of page*/
 .footer {
-  position: fixed;
-    left:0px;
-  bottom: 0px;
-    height 200px;
-    width:100%;
-  margin-right: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-right: auto;
     margin-left: auto;
     
   /* Set the fixed height of the footer here */
@@ -209,19 +224,6 @@ h6 {
     padding-bottom: 32px;
 }
 
-.event-date{
-    text-align: left;
-    padding-left: 96px;
-    font-size: 2em;
-    padding-bottom: 0px;
-}
 
-.event-description{
-
-    padding-left: 180px;
-    padding-top: 0px;
-    text-align: left;
-    padding-bottom: 64px;
-}
 
 
