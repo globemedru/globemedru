@@ -8,19 +8,44 @@ html {
     background-size: cover;
 }
 
+h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.click-hide:focus ~ .alert{
+    display: none;
+}
+
+.click-show:focus ~ .alert{
+    display: block;
+}
+
 
 .about-section{
-    position: fixed;
 
+    display: block;
+
+    position: fixed;
     left: 0px;
     top:0;
+   
+
 
     height: 50%;
     width: 50%;
     
 
     text-align: center;
-    background: #aaa;
+    background: navy;
+
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .now-section{
@@ -33,7 +58,12 @@ html {
     
 
     text-align: center;
-    background: #bbb;
+    background-image: url(../img/house-grow2015.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-left: 1px solid white;
+
 }
 
 .donate-section{
@@ -46,7 +76,12 @@ html {
     
 
     text-align: center;
-    background: #ccc;
+    background-image: url(../img/children-study.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    border-top: 1px solid white;
+
 }
 
 .members-section{
@@ -58,68 +93,90 @@ html {
     right: 50%;
 
     height: 50%;
-    width: 50%;
+    width: 40%;
     
 
     text-align: center;
-    background: #ddd;
+    background: maroon;
+
+    border-top: 1px solid white;
+    border-left: 1px solid white;
 }
 
 .facebook-section{
     position: fixed;
     bottom: 25%;
     right: 10%;
-    left: 80%;
+    left: 70%;
 
     height: 25%;
-    width: 10%;
+    width: 15%;
     
 
     text-align: center;
-    background: #fff;
+    background-image: url(../img/facebook.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-top: 1px solid white;
+    border-left: 1px solid white;
 }
 
 
 .email-section{
     position: fixed;
     bottom: 25%;
-    left: 90%;
+    left: 85%;
     right: 0;
 
     height: 25%;
-    width: 10%;
+    width: 15%;
     
 
     text-align: center;
-    background: #fff;
+    background-image: url(../img/mail.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-top: 1px solid white;
+   
 }
  
 .instagram-section{
     position: fixed;
     bottom: 0;
-    left: 80%;
+    left: 70%;
     right: 10%;
 
     height: 25%;
-    width: 10%;
+    width: 15%;
     
 
     text-align: center;
-    background: #fff;
+    background-image: url(../img/instagram.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-left: 1px solid white;
+    
 }
 
 .twitter-section{
     position: fixed;
     bottom: 0;
-    left: 90%;
+    left: 85%;
     right: 0;
 
     height: 25%;
-    width: 10%;
+    width: 15%;
     
 
     text-align: center;
-    background: #fff;
+    background-image: url(../img/twitter.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    
 }
 
 
