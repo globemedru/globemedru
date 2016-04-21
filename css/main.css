@@ -8,6 +8,10 @@ html {
     background-size: cover;
 }
 
+body {
+    font-family: Tahoma, "Tahoma", sans-serif;
+}
+
 h1 {
     color: white;
     text-shadow: 1px 1px black;
@@ -32,7 +36,7 @@ h2 {
     display: block;
 
     position: fixed;
-    left: 0px;
+    left: 0;
     top:0;
    
 
@@ -46,6 +50,7 @@ h2 {
 
     border-bottom: 1px solid white;
     border-right: 1px solid white;
+
 }
 
 .now-section{
@@ -99,8 +104,24 @@ h2 {
     text-align: center;
     background: maroon;
 
+
     border-top: 1px solid white;
     border-left: 1px solid white;
+
+
+}
+
+.members-section h2{
+    text-align: left;
+}
+
+ #multiColumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
 }
 
 .facebook-section{
