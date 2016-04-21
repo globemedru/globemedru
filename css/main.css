@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     width: 100%;
     height: 100%;
@@ -15,238 +9,103 @@ html {
     height: 100%;
 }
 
-/*if you wanna change the font, you'll have to add it to the fonts folder and change the CODE_Light below
-*/
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: CODE_Light;
-    font-weight: 550;
-
-}
-
-@font-face {
-font-family: CODE_Light;
-src: url("fonts/CODE_Light.otf") format("opentype");
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'CODE_Light' Fallback, sans-serif;
-
-}
-
-
-.button {
-    background-color: #fefefe;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background-color: gray;
-    /*background: url(../img/children-study.jpg) no-repeat center center;*/
-    
-    background-size: auto;
-    text-shadow: 10px 10px #f8f8f8;
-    top:0;
-}
 
 
 
-.intro-message {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding: 10px;
-    text-shadow: 2px 2px #000000;
-}
-
-/*GlobeMed at Rutgers title*/
-.intro-message > h1 {
-    margin: 0;
-    text-shadow: 2px 3px #000000;
-    font-size: 5em;
-}
-
-.section-header{
-    padding-bottom: 1%;
-}
-
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-/*TOP NAV BAR*/
-@media(min-width:767px) {
-    .navbar {
-        font-size: 2em;
-        background-color: navy;
-        padding: 10px 10px;
-        -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
-        -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
-        transition: background .1s ease-in-out,padding .1s ease-in-out;
-    }
-    
-    .top-nav-collapse {
-        padding: 3px;
-        font-size: 2em;
-
-    }
-}
-
-
-.navbar .nav > li > a {
-    float: none;
-    line-height: 19px;
-    padding: 9px 10px 11px;
-    text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    color:  #fefefe;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: gray;
-}
-
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-    color: gray;
-    background-color: navy;
-}
-
-
-.home-section{
-    height: 100;
-    padding-top:50px;
-    padding-bottom: 50px;
-    text-align: center;
-    background: #fff;
-}
-
-
-.events-section {
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    background: #fff;
-}
-
-.event-date{
-    text-align: left;
-    padding-left: 96px;
-    font-size: 2em;
-    padding-bottom: 0px;
-}
-
-.event-description{
-
-    padding-left: 180px;
-    padding-top: 0px;
-    text-align: left;
-    padding-bottom: 64px;
-}
-
-.mission-section {
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    background: #eee;
-}
-.contact-section {
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom:50px;
-    text-align: center;
-    background: #fff;
-    padding-left: 20px;
-}
-
-.members-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    background: #eee;
-}
-
-
-/*Get Involved/Social Media/Links*/
-.link-names {
-    position: center;
-    padding-right: 120px;
-    float: left;
-    padding-left: 10%;
-    font-size: 3.2em;
-}
-
-
-/*centers the navbar*/
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-@media (max-width: 767px) { 
-    .navbar-brand {
-        padding: 0;        
-    }
-
-    .navbar-brand img {
-        margin-top: 5px;
-        margin-left: 5px;
-    }
-}
-
-
-/*BOTTOM DONATE BAR, should stay static to bottom of page*/
-.footer {
+.about-section{
     position: fixed;
-    display: block;
-    background: url(../img/bottom-donate-bar.png) no-repeat center center;
-    height: 120px;
-    bottom: 0px;
-    width: 1204px;
-   
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
     
 
-}
-.donate_link {
-    position: none;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    text-align: center;
+    background: #aaa;
 }
 
-.service-wrapper{
-    padding-bottom: 32px;
+.now-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #bbb;
 }
 
+.donate-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
 
+    text-align: center;
+    background: #ccc;
+}
+
+.members-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #ddd;
+}
+
+.facebook-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #fff;
+}
+
+.email-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #fff;
+}
+ 
+.instagram-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #fff;
+}
+
+.twitter-section{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    
+
+    text-align: center;
+    background: #fff;
+}
 
 
