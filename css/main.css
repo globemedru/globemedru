@@ -1,22 +1,21 @@
-body {
-    width: 100%;
-    height: 100%;
-}
+/*background for entire website*/
 
-body,
 html {
-    width: 100%;
-    height: 100%;
+    background-color: blue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 
 
 .about-section{
     position: fixed;
-    z-index: 100;
-    bottom: 0;
-    left: 0;
+
+    left: 0px;
+    top:0;
+
+    height: 50%;
     width: 50%;
     
 
@@ -26,9 +25,10 @@ html {
 
 .now-section{
     position: fixed;
-    z-index: 100;
-    bottom: 0;
-    left: 0;
+    right: 0;
+    top: 0;
+
+    height: 50%;
     width: 50%;
     
 
@@ -38,10 +38,11 @@ html {
 
 .donate-section{
     position: fixed;
-    z-index: 100;
     bottom: 0;
     left: 0;
-    width: 50%;
+
+    height: 50%;
+    width: 30%;
     
 
     text-align: center;
@@ -50,9 +51,13 @@ html {
 
 .members-section{
     position: fixed;
-    z-index: 100;
     bottom: 0;
-    left: 0;
+
+
+    left: 30%;
+    right: 50%;
+
+    height: 50%;
     width: 50%;
     
 
@@ -62,22 +67,27 @@ html {
 
 .facebook-section{
     position: fixed;
-    z-index: 100;
-    bottom: 0;
-    left: 0;
-    width: 50%;
+    bottom: 25%;
+    right: 10%;
+    left: 80%;
+
+    height: 25%;
+    width: 10%;
     
 
     text-align: center;
     background: #fff;
 }
 
+
 .email-section{
     position: fixed;
-    z-index: 100;
-    bottom: 0;
-    left: 0;
-    width: 50%;
+    bottom: 25%;
+    left: 90%;
+    right: 0;
+
+    height: 25%;
+    width: 10%;
     
 
     text-align: center;
@@ -86,10 +96,12 @@ html {
  
 .instagram-section{
     position: fixed;
-    z-index: 100;
     bottom: 0;
-    left: 0;
-    width: 50%;
+    left: 80%;
+    right: 10%;
+
+    height: 25%;
+    width: 10%;
     
 
     text-align: center;
@@ -98,10 +110,12 @@ html {
 
 .twitter-section{
     position: fixed;
-    z-index: 100;
     bottom: 0;
-    left: 0;
-    width: 50%;
+    left: 90%;
+    right: 0;
+
+    height: 25%;
+    width: 10%;
     
 
     text-align: center;
