@@ -40,7 +40,7 @@ h1, h2, h3 {
 .now-section{
     position: relative;
     display: block;
-    height: 300px;
+    height: 420px;
     width: 40%;
     float: left;
     text-align: center;
@@ -54,12 +54,14 @@ h1, h2, h3 {
 .members-section{
     position: relative;
     display: block;
-    height: 300px;
+    height: 420px;
     float: right;
     width: 40%;
     text-align: center;
     padding: 1% 2% 2%;
     margin: 2% 2% 2% 2%;
+
+    line-height: 220%;
 
     border: 5px solid white;
 
