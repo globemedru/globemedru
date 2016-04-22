@@ -155,7 +155,23 @@ h1, h2, h3 {
     background-repeat: no-repeat;
     
 }
-*/
+
+.mems-section{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 91%;
+    float: left;
+    text-align: center;
+    padding: 1% 2% 2%;
+    margin: 2% 2% 2% 2%;
+    line-height: 450%;
+
+    border: 5px solid white;
+    
+
+}
+
 
 .priya-section{
     background-image: url(../img/priya.jpg);
