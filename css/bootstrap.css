@@ -1236,6 +1236,9 @@ pre code {
   .col-md-offset-1 {
     margin-left: 8.333333333333332%;
   }
+  .col-md-offset-1-5 {
+    margin-left: 4.166666666666661%;
+  }
   .col-md-offset-0 {
     margin-left: 0;
   }

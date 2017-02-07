@@ -383,6 +383,8 @@ hr {
 
 .avatar {
 	margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .team-social {
@@ -809,6 +811,10 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
+
+    .col-md-offset-1-5 {
+    margin-left: 4.166666666666661%;
+  }
 
 	
 }
