@@ -1338,97 +1338,68 @@
 }
 
 /*Facebook icon*/
-.icon-circle .fa{
-    font-size           : 25px;
-    color               : #e84700;
-    margin              : 0 auto;
-    height              : 80px;
-    width               : 80px;
-    border-radius       : 50%;
-    border              :2px solid #e84700;
-    line-height         : 80px;
-    cursor              : pointer;
-    -webkit-transition  : all  ease-in-out 0.35s;
-    -moz-transition     : all  ease-in-out 0.35s;
-    -o-transition       : all  ease-in-out 0.35s;
-    -ms-transition      : all  ease-in-out 0.35s;
-    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
 }
 
-.icon-circle  .fa:hover{
-
-    background-color        : #e84700;
-    color                   : #fff;
-    border                  : 1px solid #e84711;
-    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
-    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
-    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
-    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
-    box-shadow              : inset 0px 0px 0px 5px #ffffff;
-    -ms-transform           : scale(1.2,1.2);
-    -webkit-transform       : scale(1.2,1.2);
-    -moz-transform          : scale(1.2,1.2);
-    -o-transform            : scale(1.2,1.2);
-    transform               : scale(1.2,1.2);
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
 }
 
-.icon-circle  i:before{
-    margin-left         : 0px;
-    font-size           : 40px;
+
+.social-network a.icoInstagram:hover {
+	background-color:#3F729B;
 }
 
-@media (min-width:320px) and (max-width:768px) {
-
-
- .icon-circle .fa{
-    font-size           : 15px;
-    color               : #e84700;
-    margin              : 0 auto;
-    height              : 40px;
-    width               : 40px;
-    border-radius       : 50%;
-    border              :2px solid #e84700;
-    line-height         : 40px;
-    cursor              : pointer;
-    -webkit-transition  : all  ease-in-out 0.35s;
-    -moz-transition     : all  ease-in-out 0.35s;
-    -o-transition       : all  ease-in-out 0.35s;
-    -ms-transition      : all  ease-in-out 0.35s;
-    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i{
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
 }
 
-.icon-circle  .fa:hover{
-
-    background-color        : #e84700;
-    color                   : #fff;
-    border                  : 1px solid #e84711;
-    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
-    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
-    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
-    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
-    box-shadow              : inset 0px 0px 0px 5px #ffffff;
-    -ms-transform           : scale(1.2,1.2);
-    -webkit-transform       : scale(1.2,1.2);
-    -moz-transform          : scale(1.2,1.2);
-    -o-transform            : scale(1.2,1.2);
-    transform               : scale(1.2,1.2);
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
 }
 
-.icon-circle  i:before{
-    margin-left         : 0px;
-    font-size           : 20px;
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
 }
-}
-
-.ifacebook .fa{
-    color               :#3B5998;
-    border              :2px solid #3B5998;
-}
-
-.ifacebook .fa:hover{
-
-    background-color        : #3B5998;
-    color                   : #fff;
-    border                  : 1px solid #3B5998;
-
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
 }
