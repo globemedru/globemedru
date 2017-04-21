@@ -325,7 +325,7 @@ hr {
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:15% 0 0 0;
 }
 
 .intro .slogan {
@@ -367,7 +367,8 @@ hr {
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+  line-height: 160%;
 }
 
 
