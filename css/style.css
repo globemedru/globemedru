@@ -589,12 +589,14 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
   line-height: 35px;
   padding: 0;
   margin: 0 0 0 20px;
+  color: black;
   text-transform: uppercase;
 }
 .progress .skill .val {
   float: right;
   font-style: normal;
   margin: 0 20px 0 0;
+  color: black;
 }
 
 .progress-bar {
