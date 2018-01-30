@@ -20,7 +20,9 @@
   <!--style sheets-->
   <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
 
 </head>
 
@@ -40,12 +42,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#service">CalU</a></li>
-          <li><a href="#about">Members</a></li>
+          <li class="active"><a href="index.html#intro">Home</a></li>
+          <li><a href="index.html#service">CalU</a></li>
+          <li><a href="index.html#about">Members</a></li>
           <li><a href="https://www.facebook.com/GlobeMedRU/" target="_blank" >Facebook</a></li>
           <li><a href="https://www.instagram.com/globemedru/" target="_blank" >Instagram</a></li>
-          <li><a href="javascript:AlertIt();">Blog</a></li>
+          <li><a href="">Blog</a></li>
 
         </ul>
       </div>
@@ -54,46 +56,93 @@
     <!-- /.container -->
   </nav>
 
-
-    <div class="container">
-      <div class="row">
-        <!-- 16:9 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
-        </div>
-
-      </div>
-    </div>
-
-
-
-
-
-  <!-- /Section: Facebook Ad(banner) -->
-  <section id="service" class="home-section text-center bg-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Visit Our Facebook Page for Events!</h3>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="sicon">
-            <div class="icon-circle">
-              <a href="https://www.facebook.com/GlobeMedRU/" class="ifacebook" title="Facebook"><i class="fa fa-5x fa-facebook"></i></a>
-
+  <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="site-heading">
+              <h1>GlobeMed at Rutgers University</h1>
+              <span class="subheading">A word on public health.</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- divider -->
-  <div class="row">
-    <div class="col-lg-2 col-lg-offset-5">
-      <hr class="marginbot-50">
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-offset-2">
+          <div class="post-preview">
+            <a href="">
+              <h2 class="post-title">
+                Man must explore, and this is exploration at its greatest
+              </h2>
+              <h3 class="post-subtitle">
+                Problems look mighty small from 150 miles up
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Jane Doe</a>
+              on September 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="">
+              <h2 class="post-title">
+                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+              </h2>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">John</a>
+              on September 18, 2018</p>
+          </div>
+
+
+          <hr>
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary" style="float:right" href="#">Older Posts &rarr;</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+            </ul>
+            <p class="copyright text-muted"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
 
 
 
