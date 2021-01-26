@@ -470,6 +470,12 @@ hr {
     position:relative;
     height: auto;
 }
+.twoCol {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
 
 
 /* ===========================
