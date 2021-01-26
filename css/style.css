@@ -462,6 +462,14 @@ hr {
     height: auto;
 }
 
+/* ===========================
+--- Events
+============================ */
+.event-banner{
+    width: 100%;
+    position:relative;
+    height: auto;
+}
 
 
 /* ===========================
